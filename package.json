@@ -1,0 +1,42 @@
+{
+  "name": "embraced-by-love-style",
+  "version": "0.1.0",
+  "description": "Install and update the Embraced by Love Chinese writing-style skill for Codex.",
+  "keywords": [
+    "codex",
+    "skill",
+    "chinese-writing",
+    "writing-style",
+    "creative-writing"
+  ],
+  "license": "MIT",
+  "author": "zengyincen",
+  "homepage": "https://github.com/zengyincen/embraced-by-love-style#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zengyincen/embraced-by-love-style.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zengyincen/embraced-by-love-style/issues"
+  },
+  "type": "module",
+  "bin": {
+    "embraced-by-love-style": "./bin/cli.mjs"
+  },
+  "files": [
+    "bin/",
+    "skill/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test && npm pack --dry-run",
+    "install:local": "node ./bin/cli.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "packageManager": "npm@11.16.0"
+}
