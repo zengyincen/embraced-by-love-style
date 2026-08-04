@@ -46,15 +46,16 @@ npm run install:local
 
 ## 通过 GitHub Actions 发布
 
-首次发布前，在 npm 创建一个用于 CI 的细粒度访问令牌：
+在 npm 包设置的 Trusted Publisher 中绑定 GitHub Actions：
 
-1. 打开 [npm Granular Access Tokens](https://www.npmjs.com/settings/zengyincen/tokens/granular-access-tokens/new)；
-2. 将 Packages and scopes 设为 Read and write；首次创建包时选择 All packages；
-3. 开启 Bypass two-factor authentication，并设置合理的有效期；
-4. 在 GitHub 仓库的 Settings → Secrets and variables → Actions 中新增 `NPM_TOKEN`；
-5. 打开 Actions → Publish to npm → Run workflow。
+1. 打开 npm 上的 `embraced-by-love-style` 包设置；
+2. Publisher 选择 GitHub Actions；
+3. Organization or user 填写 `zengyincen`；
+4. Repository 填写 `embraced-by-love-style`；
+5. Workflow filename 填写 `publish.yml`；
+6. Environment 留空，Allowed actions 选择 `npm publish`。
 
-工作流会依次安装依赖、运行测试，并使用 provenance 发布当前 `package.json` 中的版本。不得把令牌写进仓库文件、Issue 或聊天记录。
+工作流使用 npm Trusted Publishing 的短期 OIDC 凭证，不需要 `NPM_TOKEN`。它会依次安装依赖、运行测试、发布当前版本并自动生成 provenance。
 
 发布新版本时修改 Skill，确认测试通过，再提交新的版本号：
 
@@ -64,9 +65,7 @@ npm version patch
 git push --follow-tags
 ```
 
-推送后再次手动运行发布工作流。较大的功能变化可将 `patch` 换为 `minor` 或 `major`。
-
-首次发布成功后，可以在 npm 包设置中将此仓库配置为 Trusted Publisher，再从工作流移除 `NPM_TOKEN`，完全改用短期 OIDC 凭证。
+推送 `v*` 标签后会自动发布，也可以在 GitHub Actions 页面手动运行。较大的功能变化可将 `patch` 换为 `minor` 或 `major`。
 
 ## 项目结构
 
