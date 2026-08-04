@@ -1,4 +1,4 @@
 interface:
   display_name: "Embraced by Love 文风"
-  short_description: "以温柔内省、时空回望和现实质感完成中文叙事与抒情写作"
-  default_prompt: "使用 $embraced-by-love-style，把这段素材写成真诚、温暖而有现实质感的中文文章。"
+  short_description: "以温柔内省、诚实自审和现实质感完成中文叙事与抒情写作"
+  default_prompt: "使用 $embraced-by-love-style，把这段素材写成真诚、具体、不强行和解的中文文章。"
