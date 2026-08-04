@@ -79,29 +79,6 @@ npm test
 npm run install:local
 ```
 
-## 通过 GitHub Actions 发布
-
-在 npm 包设置的 Trusted Publisher 中绑定 GitHub Actions：
-
-1. 打开 npm 上的 `embraced-by-love-style` 包设置；
-2. Publisher 选择 GitHub Actions；
-3. Organization or user 填写 `zengyincen`；
-4. Repository 填写 `embraced-by-love-style`；
-5. Workflow filename 填写 `publish.yml`；
-6. Environment 留空，Allowed actions 选择 `npm publish`。
-
-工作流使用 npm Trusted Publishing 的短期 OIDC 凭证，不需要 `NPM_TOKEN`。它会依次安装依赖、运行测试、发布当前版本并自动生成 provenance。
-
-发布新版本时修改 Skill，确认测试通过，再提交新的版本号：
-
-```bash
-npm test
-npm version patch
-git push --follow-tags
-```
-
-推送 `v*` 标签后会自动发布，也可以在 GitHub Actions 页面手动运行。较大的功能变化可将 `patch` 换为 `minor` 或 `major`。
-
 ## 项目结构
 
 ```text
