@@ -21,7 +21,7 @@
   },
   "type": "module",
   "bin": {
-    "embraced-by-love-style": "./bin/cli.mjs"
+    "embraced-by-love-style": "bin/cli.mjs"
   },
   "files": [
     "bin/",
