@@ -9,6 +9,9 @@ import { fileURLToPath } from "node:url";
 const PACKAGE_ROOT = fileURLToPath(new URL("../", import.meta.url));
 const CLI = path.join(PACKAGE_ROOT, "bin", "cli.mjs");
 const SKILL_NAME = "embraced-by-love-style";
+const PACKAGE_VERSION = JSON.parse(
+  readFileSync(path.join(PACKAGE_ROOT, "package.json"), "utf8"),
+).version;
 
 function runCli(...args) {
   return spawnSync(process.execPath, [CLI, ...args], {
@@ -42,7 +45,7 @@ test("installs the complete skill into a custom skills root", () => {
       readFileSync(path.join(target, ".embraced-by-love-style.json"), "utf8"),
     );
     assert.equal(metadata.name, SKILL_NAME);
-    assert.equal(metadata.version, "0.1.0");
+    assert.equal(metadata.version, PACKAGE_VERSION);
   });
 });
 

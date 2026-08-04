@@ -1,7 +1,7 @@
 {
   "name": "embraced-by-love-style",
-  "version": "0.1.0",
-  "description": "Install and update the Embraced by Love Chinese writing-style skill for Codex.",
+  "version": "0.1.1",
+  "description": "个人自用的 Embraced by Love 中文文风 Codex Skill；公开包仅用于个人版本管理与 npx 安装。",
   "keywords": [
     "codex",
     "skill",
