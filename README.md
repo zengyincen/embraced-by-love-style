@@ -44,15 +44,29 @@ npm test
 npm run install:local
 ```
 
-发布新版本：
+## 通过 GitHub Actions 发布
+
+首次发布前，在 npm 创建一个用于 CI 的细粒度访问令牌：
+
+1. 打开 [npm Granular Access Tokens](https://www.npmjs.com/settings/zengyincen/tokens/granular-access-tokens/new)；
+2. 将 Packages and scopes 设为 Read and write；首次创建包时选择 All packages；
+3. 开启 Bypass two-factor authentication，并设置合理的有效期；
+4. 在 GitHub 仓库的 Settings → Secrets and variables → Actions 中新增 `NPM_TOKEN`；
+5. 打开 Actions → Publish to npm → Run workflow。
+
+工作流会依次安装依赖、运行测试，并使用 provenance 发布当前 `package.json` 中的版本。不得把令牌写进仓库文件、Issue 或聊天记录。
+
+发布新版本时修改 Skill，确认测试通过，再提交新的版本号：
 
 ```bash
+npm test
 npm version patch
-npm publish --access public
 git push --follow-tags
 ```
 
-较大的功能变化可将 `patch` 换为 `minor` 或 `major`。发布前需要分别完成 `gh auth login` 与 `npm login`。
+推送后再次手动运行发布工作流。较大的功能变化可将 `patch` 换为 `minor` 或 `major`。
+
+首次发布成功后，可以在 npm 包设置中将此仓库配置为 Trusted Publisher，再从工作流移除 `NPM_TOKEN`，完全改用短期 OIDC 凭证。
 
 ## 项目结构
 
