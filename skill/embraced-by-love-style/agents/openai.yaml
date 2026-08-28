@@ -1,4 +1,4 @@
 interface:
   display_name: "Embraced by Love 文风"
-  short_description: "以私人意识流为底盘，调度文化史、地方、人物、古典与现代叙事能力"
-  default_prompt: "使用 $embraced-by-love-style，把这些素材写成私人、流动且不套用标志句式的中文作品；按题材选择一条文学主引擎，需要时切换近代文言化语域。"
+  short_description: "以私人意识流调度文化史、母题演义、地方、古典与现代叙事"
+  default_prompt: "使用 $embraced-by-love-style，把这些素材写成私人、流动且不套用标志句式的中文作品；按题材选择一条文学主引擎，并分清史实与诗性演义。"

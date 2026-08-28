@@ -1,6 +1,6 @@
 ---
 name: embraced-by-love-style
-description: 学习并应用“Embraced by Love”个人中文文风，创作、续写、润色或审读私人意识流散文、文化历史散文、地方抒情、人物与离散记忆、古典诗词鉴赏、现代诗和小说，也支持近代文言化家书与历史叙事。核心是让素材中的情绪汇聚并顺势“挤”成文字流，按任务调度多源文学能力而不套用作者旧作或特定作家的标志句式。
+description: 学习并应用“Embraced by Love”个人中文文风，创作、续写、润色或审读私人意识流散文、文化历史散文、母题式历史抒情、地方与离散记忆、古典诗词鉴赏、现代诗和小说，也支持近代文言化家书与历史叙事。核心是让素材中的情绪汇聚并顺势“挤”成文字流，按任务调度多源文学能力而不套用作者旧作或特定作家的标志句式。
 ---
 
 # Embraced by Love 文风
@@ -17,7 +17,7 @@ description: 学习并应用“Embraced by Love”个人中文文风，创作、
 
 用户点名某位作家时，只吸收可泛化的高层特征，如古典与现代交叠、感官密度、句势伸缩、私人经验向哲思转身；不要复制其独特比喻、标志句式、段落结构或已知作品的表达。成稿仍须像用户本人在新的处境中继续写，而非某位作家的替身。
 
-多源阅读不是把许多作家揉进同一段文字。保留用户声音作为人格底盘，每次只选择一条主引擎，必要时增加一条辅引擎；文化史、物哀、声律、人物记忆、古典细读、反讽与复调各自解决不同问题，不轮流展示“文学感”。
+多源阅读不是把许多作家揉进同一段文字。保留用户声音作为人格底盘，每次只选择一条主引擎，必要时增加一条辅引擎；文化史、母题演义、物哀、声律、人物记忆、古典细读、反讽与复调各自解决不同问题，不轮流展示“文学感”。
 
 不要为了“去 AI 味”专门拆掉整齐排比、金句、长句、解释或浓密意象。它们只要属于此刻的语境和感觉，就可以完整保留。只清理突然不像这个人会说的话、放进任何文章都成立的话，以及把原本情绪引向别处的话。
 
@@ -26,7 +26,7 @@ description: 学习并应用“Embraced by Love”个人中文文风，创作、
 ## 加载参考
 
 - 每次创作、续写或重写前，完整阅读 [references/style-profile.md](references/style-profile.md)，把它当作生成内在声音的画像，不当作词语和句式清单；再完整阅读 [references/corpus-router.md](references/corpus-router.md)，选择一条主引擎，至多一条辅引擎。
-- 根据路由只读取当前需要的详细参考：[文化历史与行走](references/cultural-historical-prose.md)、[感官、地方与物哀](references/sensory-place-lyricism.md)、[人物、城市与离散记忆](references/character-memory-diaspora.md)、[古典诗学与细读](references/classical-poetics-reading.md)、[诗性压缩、小说反讽与复调](references/poetry-fiction-techniques.md)。不要为一次普通写作全部加载。
+- 根据路由只读取当前需要的详细参考：[文化历史与行走](references/cultural-historical-prose.md)、[母题、历史与诗性演义](references/mythic-historical-lyric.md)、[感官、地方与物哀](references/sensory-place-lyricism.md)、[人物、城市与离散记忆](references/character-memory-diaspora.md)、[古典诗学与细读](references/classical-poetics-reading.md)、[诗性压缩、小说反讽与复调](references/poetry-fiction-techniques.md)。不要为一次普通写作全部加载。
 - 只有在篇章失去方向时才阅读 [references/forms.md](references/forms.md)。把其中结构视为可能的情感流向，选中后离开模板再写，不让读者看见骨架。
 - 用户要求近代文言化、半文半白、旧式家书、尺牍、历史见闻或特定年代人物口吻时，完整阅读 [references/modern-classical-register.md](references/modern-classical-register.md)。其他任务不要加载或强行混入这一语域。
 
@@ -49,6 +49,8 @@ description: 学习并应用“Embraced by Love”个人中文文风，创作、
 先判断叙述者所处时代、身份、亲疏秩序和知识边界。历史人物只能使用当时可能拥有的概念与信息；书信中的称谓、自称、敬辞和结语要随关系变化，不能只靠几个古词制造年代感。
 
 若任务涉及文化史或文本鉴赏，再区分现场所见、史料事实、可论证解释与个人兴发。个人感动不能替历史或文本作证，知识也不能接管叙述者变成全知讲解。
+
+若任务采用历史演义、非人自述或向古人直接叩问，先决定哪些内容是可考骨架，哪些是由诗文触发的推想，哪些是明确的寓言虚构。想象可以浓烈，身份必须清楚；不要把古人的临终回忆、私下对话或精确心理写成未经标记的史实。
 
 ### 3. 让联想自己带路
 
@@ -116,6 +118,10 @@ description: 学习并应用“Embraced by Love”个人中文文风，创作、
 ### 文化历史与地方书写
 
 让现场、器物、人的选择和史料互相校验，再由今日的有限之“我”发问。不要从一处遗迹推出整个文明，也不要把地方、乡村、异域或苦难写成供抒情使用的景观。需要时分别读取路由中的文化历史或感官地方参考。
+
+### 母题式历史抒情与诗性演义
+
+让一个物象、词、自然力量或抽象事物成为跨越历史的叙事生命，每经过一个时代或人物都发生变义。可以向古人叩问、让非人之物自述、让诗与诗人互相追逐，但不要复用白马、黄鹤、东风或“诗是妖兽”等既有样本零件。区分史实主导的诗性随笔与明确的历史寓言，详见 [references/mythic-historical-lyric.md](references/mythic-historical-lyric.md)。
 
 ### 人物、家族与离散记忆
 

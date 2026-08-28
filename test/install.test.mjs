@@ -19,6 +19,7 @@ const REQUIRED_REFERENCES = [
   "cultural-historical-prose.md",
   "forms.md",
   "modern-classical-register.md",
+  "mythic-historical-lyric.md",
   "poetry-fiction-techniques.md",
   "sensory-place-lyricism.md",
   "style-profile.md",
