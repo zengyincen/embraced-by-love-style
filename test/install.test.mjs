@@ -12,6 +12,17 @@ const SKILL_NAME = "embraced-by-love-style";
 const PACKAGE_VERSION = JSON.parse(
   readFileSync(path.join(PACKAGE_ROOT, "package.json"), "utf8"),
 ).version;
+const REQUIRED_REFERENCES = [
+  "character-memory-diaspora.md",
+  "classical-poetics-reading.md",
+  "corpus-router.md",
+  "cultural-historical-prose.md",
+  "forms.md",
+  "modern-classical-register.md",
+  "poetry-fiction-techniques.md",
+  "sensory-place-lyricism.md",
+  "style-profile.md",
+];
 
 function runCli(...args) {
   return spawnSync(process.execPath, [CLI, ...args], {
@@ -39,7 +50,12 @@ test("installs the complete skill into a custom skills root", () => {
     assert.match(result.stdout, /已安装/);
     assert.ok(existsSync(path.join(target, "SKILL.md")));
     assert.ok(existsSync(path.join(target, "agents", "openai.yaml")));
-    assert.ok(existsSync(path.join(target, "references", "style-profile.md")));
+    for (const reference of REQUIRED_REFERENCES) {
+      assert.ok(
+        existsSync(path.join(target, "references", reference)),
+        `missing reference ${reference}`,
+      );
+    }
 
     const metadata = JSON.parse(
       readFileSync(path.join(target, ".embraced-by-love-style.json"), "utf8"),
