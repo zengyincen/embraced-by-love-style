@@ -81,6 +81,14 @@ Skill 没有把许多作家与作品混成一个笼统的“文学腔”，而�
 
 ## 安装或更新
 
+从 GitHub 直接使用最新提交（npm 新版本发布前的推荐方式）：
+
+```bash
+npx --yes github:zengyincen/embraced-by-love-style
+```
+
+npm registry 发布完成后，也可以使用：
+
 ```bash
 npx embraced-by-love-style@latest
 ```
