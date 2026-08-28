@@ -1,4 +1,4 @@
 interface:
   display_name: "Embraced by Love 文风"
-  short_description: "以私人化感知和意识流联想，让情绪自然挤成有呼吸的中文文字流"
-  default_prompt: "使用 $embraced-by-love-style，把这些素材写成私人、流动、不套用标志句式的中文文章。"
+  short_description: "以私人意识流与近代文言化，写出古今相接、情感丰沛的个人中文文字"
+  default_prompt: "使用 $embraced-by-love-style，把这些素材写成私人、流动且不套用标志句式的中文文章；需要时切换近代文言化语域。"
