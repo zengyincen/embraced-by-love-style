@@ -1,6 +1,6 @@
 ---
 name: embraced-by-love-style
-description: 学习并应用“Embraced by Love”个人中文文风，创作、续写、润色或审读私人意识流散文、文化历史散文、母题式历史抒情、地方与离散记忆、古典诗词鉴赏、现代诗和小说，也支持近代文言化家书与历史叙事。核心是让素材中的情绪汇聚并顺势“挤”成文字流，按任务调度多源文学能力而不套用作者旧作或特定作家的标志句式。
+description: 学习并应用“Embraced by Love”个人中文文风，创作、续写、润色或审读私人意识流散文、文化历史散文、文明史诗与纪录片解说、母题式历史抒情、地方与离散记忆、古典诗词鉴赏、现代诗和小说，也支持近代文言化家书与历史叙事。核心是让素材中的情绪汇聚并顺势“挤”成文字流，按任务调度多源文学能力而不套用作者旧作或特定作家的标志句式。
 ---
 
 # Embraced by Love 文风
@@ -26,7 +26,7 @@ description: 学习并应用“Embraced by Love”个人中文文风，创作、
 ## 加载参考
 
 - 每次创作、续写或重写前，完整阅读 [references/style-profile.md](references/style-profile.md)，把它当作生成内在声音的画像，不当作词语和句式清单；再完整阅读 [references/corpus-router.md](references/corpus-router.md)，选择一条主引擎，至多一条辅引擎。
-- 根据路由只读取当前需要的详细参考：[文化历史与行走](references/cultural-historical-prose.md)、[母题、历史与诗性演义](references/mythic-historical-lyric.md)、[感官、地方与物哀](references/sensory-place-lyricism.md)、[人物、城市与离散记忆](references/character-memory-diaspora.md)、[古典诗学与细读](references/classical-poetics-reading.md)、[诗性压缩、小说反讽与复调](references/poetry-fiction-techniques.md)。不要为一次普通写作全部加载。
+- 根据路由只读取当前需要的详细参考：[文化历史与行走](references/cultural-historical-prose.md)、[文明史诗与纪录片解说](references/civilizational-documentary-narration.md)、[母题、历史与诗性演义](references/mythic-historical-lyric.md)、[感官、地方与物哀](references/sensory-place-lyricism.md)、[人物、城市与离散记忆](references/character-memory-diaspora.md)、[古典诗学与细读](references/classical-poetics-reading.md)、[诗性压缩、小说反讽与复调](references/poetry-fiction-techniques.md)。不要为一次普通写作全部加载。
 - 只有在篇章失去方向时才阅读 [references/forms.md](references/forms.md)。把其中结构视为可能的情感流向，选中后离开模板再写，不让读者看见骨架。
 - 用户要求近代文言化、半文半白、旧式家书、尺牍、历史见闻或特定年代人物口吻时，完整阅读 [references/modern-classical-register.md](references/modern-classical-register.md)。其他任务不要加载或强行混入这一语域。
 
@@ -118,6 +118,10 @@ description: 学习并应用“Embraced by Love”个人中文文风，创作、
 ### 文化历史与地方书写
 
 让现场、器物、人的选择和史料互相校验，再由今日的有限之“我”发问。不要从一处遗迹推出整个文明，也不要把地方、乡村、异域或苦难写成供抒情使用的景观。需要时分别读取路由中的文化历史或感官地方参考。
+
+### 文明纪录片与公共历史解说
+
+当任务需要纪录片旁白、历史文化短片、展览解说或面向公共听众的文明叙事时，读取 [references/civilizational-documentary-narration.md](references/civilizational-documentary-narration.md)。以少数能解释时代的节点取代编年目录，让人物命运、器物和制度承载文明判断；让画面提供质地与留白，旁白补足时间、因果和思想，不复述画面。保持三层复调：发生了什么、叙述者为何被触动、它在更大历史中的意义。句子须可听，长短随呼吸变化，温情与敬意不等于神化或单向的进步叙事。史实、推断和文学演义要可区分，尤其警惕从单一文书、器物或胜利者视角推出整个时代的结论。
 
 ### 母题式历史抒情与诗性演义
 

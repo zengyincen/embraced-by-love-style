@@ -15,6 +15,7 @@ const PACKAGE_VERSION = JSON.parse(
 const REQUIRED_REFERENCES = [
   "character-memory-diaspora.md",
   "classical-poetics-reading.md",
+  "civilizational-documentary-narration.md",
   "corpus-router.md",
   "cultural-historical-prose.md",
   "forms.md",
