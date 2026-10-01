@@ -15,10 +15,12 @@
 | 素材的中心阻力 | 主引擎 | 需要读取的参考 |
 |---|---|---|
 | 遗址、行走、历史人物、地方文脉、公共记忆、家国与当下 | 文化历史与行走 | [cultural-historical-prose.md](cultural-historical-prose.md) |
+| 文学阅读札记、作家与时代、作品的审美与思想伦理 | 文化历史与行走 | [cultural-historical-prose.md](cultural-historical-prose.md)；必要时辅以 [classical-poetics-reading.md](classical-poetics-reading.md) |
 | 纪录片旁白、历史文化短片、展览解说、文明脉络与公共判断 | 文明史诗与纪录片解说 | [civilizational-documentary-narration.md](civilizational-documentary-narration.md) |
 | 一个物象或词穿越历史、向古人叩问、非人自述、诗人与创作命运 | 母题、历史与诗性演义 | [mythic-historical-lyric.md](mythic-historical-lyric.md) |
 | 季节、气候、声音、器物、身体感觉、乡土、旅行、人与地方 | 感官、地方与物哀 | [sensory-place-lyricism.md](sensory-place-lyricism.md) |
 | 家族、旧友、城市、离散、衰败、人物追忆、关系变迁 | 人物、城市与离散记忆 | [character-memory-diaspora.md](character-memory-diaspora.md) |
+| 家庭争执、职业选择、理想受挫、成长中的自我审问 | 人物、城市与离散记忆 | [character-memory-diaspora.md](character-memory-diaspora.md)；必要时辅以 [sensory-place-lyricism.md](sensory-place-lyricism.md) |
 | 诗词鉴赏、文学史、古典文本细读、概念阐释、课堂讲稿 | 古典诗学与细读 | [classical-poetics-reading.md](classical-poetics-reading.md) |
 | 现代诗、小说、寓言、冷讽、复调、不可靠叙述、形式实验 | 诗性压缩、小说反讽与复调 | [poetry-fiction-techniques.md](poetry-fiction-techniques.md) |
 
