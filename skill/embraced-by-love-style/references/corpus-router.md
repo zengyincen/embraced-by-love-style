@@ -17,6 +17,7 @@
 | 遗址、行走、历史人物、地方文脉、公共记忆、家国与当下 | 文化历史与行走 | [cultural-historical-prose.md](cultural-historical-prose.md) |
 | 文学阅读札记、作家与时代、作品的审美与思想伦理 | 文化历史与行走 | [cultural-historical-prose.md](cultural-historical-prose.md)；必要时辅以 [classical-poetics-reading.md](classical-poetics-reading.md) |
 | 记叙文、文学散文、回忆性写作、私人经验向公共思考转化 | 文学工艺与公共共鸣 | [literary-craft-public-resonance.md](literary-craft-public-resonance.md) |
+| 标题母题、文化意象、历史人物、城市对照、价值命题、材料作文式公共表达 | 立意型文化散文与雄辩性文学表达 | [rhetorical-literary-prose.md](rhetorical-literary-prose.md) |
 | 纪录片旁白、历史文化短片、展览解说、文明脉络与公共判断 | 文明史诗与纪录片解说 | [civilizational-documentary-narration.md](civilizational-documentary-narration.md) |
 | 一个物象或词穿越历史、向古人叩问、非人自述、诗人与创作命运 | 母题、历史与诗性演义 | [mythic-historical-lyric.md](mythic-historical-lyric.md) |
 | 季节、气候、声音、器物、身体感觉、乡土、旅行、人与地方 | 感官、地方与物哀 | [sensory-place-lyricism.md](sensory-place-lyricism.md) |
@@ -28,6 +29,8 @@
 近代家书、尺牍或历史人物口吻另行读取 [modern-classical-register.md](modern-classical-register.md)。它是语域控制器，可以覆盖任一引擎的表面语言，但不能替代史实核查或叙述者身份判断。
 
 “文学工艺与公共共鸣”是跨题材的工艺层：当私人故事、成长叙事或散文容易陷入自我感动时加载它；它可以与任一主引擎并用，但不要求每篇作品都添加宏大议论。
+
+“立意型文化散文与雄辩性文学表达”也是跨题材工艺层：当文章需要用标题母题、对举排比、历史人物与公共价值组织思想时加载它；它可与文化历史、古典细读、感官地方或母题演义并用，但不等于增加名人和典故数量。
 
 ## 如何选择辅引擎
 

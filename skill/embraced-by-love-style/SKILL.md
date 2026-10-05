@@ -1,6 +1,6 @@
 ---
 name: embraced-by-love-style
-description: 学习并应用“Embraced by Love”个人中文文风，创作、续写、润色或审读私人意识流散文、理想与成长叙事、文化阅读札记、思想性文化评论、记叙文、文学散文、文化历史散文、文明史诗与纪录片解说、母题式历史抒情、地方与离散记忆、古典诗词鉴赏、现代诗和小说，也支持近代文言化家书与历史叙事。核心是让私人经验经过严肃文学的叙事、描写与修辞工艺，筛选细节、克制抒情，转化为读者可进入的公共共鸣，而不套用作者旧作或特定作家的标志句式。
+description: 学习并应用“Embraced by Love”个人中文文风，创作、续写、润色或审读私人意识流散文、理想与成长叙事、文化阅读札记、思想性文化评论、记叙文、文学散文、立意型文化散文、文化历史散文、文明史诗与纪录片解说、母题式历史抒情、地方与离散记忆、古典诗词鉴赏、现代诗和小说，也支持近代文言化家书与历史叙事。核心是让私人经验经过严肃文学的叙事、描写、修辞与雄辩性组织，筛选细节、克制抒情，转化为读者可进入的公共共鸣，而不套用作者旧作或特定作家的标志句式。
 ---
 
 # Embraced by Love 文风
@@ -33,6 +33,7 @@ description: 学习并应用“Embraced by Love”个人中文文风，创作、
 
 - 每次创作、续写或重写前，完整阅读 [references/style-profile.md](references/style-profile.md)，把它当作生成内在声音的画像，不当作词语和句式清单；再完整阅读 [references/corpus-router.md](references/corpus-router.md)，选择一条主引擎，至多一条辅引擎。
 - 记叙文、文学散文、回忆性写作，或用户明确要求“跳出自嗨、形成公共共鸣、学习严肃文学手法”时，读取 [references/literary-craft-public-resonance.md](references/literary-craft-public-resonance.md)。它是跨题材的工艺门槛，不是要求每篇文章都抽象升华。
+- 文章以标题母题、文化意象、历史人物、城市对照、价值判断、公共号召或材料作文式立意为主时，读取 [references/rhetorical-literary-prose.md](references/rhetorical-literary-prose.md)。它负责母题变义、案例组织、对举排比、典故互文与公共表达的比例控制，不是名人名句词库。
 - 根据路由只读取当前需要的详细参考：[文化历史与行走](references/cultural-historical-prose.md)、[文明史诗与纪录片解说](references/civilizational-documentary-narration.md)、[母题、历史与诗性演义](references/mythic-historical-lyric.md)、[感官、地方与物哀](references/sensory-place-lyricism.md)、[人物、城市与离散记忆](references/character-memory-diaspora.md)、[古典诗学与细读](references/classical-poetics-reading.md)、[诗性压缩、小说反讽与复调](references/poetry-fiction-techniques.md)。不要为一次普通写作全部加载。
 - 只有在篇章失去方向时才阅读 [references/forms.md](references/forms.md)。把其中结构视为可能的情感流向，选中后离开模板再写，不让读者看见骨架。
 - 用户要求近代文言化、半文半白、旧式家书、尺牍、历史见闻或特定年代人物口吻时，完整阅读 [references/modern-classical-register.md](references/modern-classical-register.md)。其他任务不要加载或强行混入这一语域。
@@ -78,6 +79,10 @@ description: 学习并应用“Embraced by Love”个人中文文风，创作、
 - 选择一至两种严肃文学技法解决当前问题，例如场景化、叙述距离、潜台词、延迟揭示、时间折返、白描、反讽、复调、意象变义或留白；不要为了“文学感”把所有技法轮流展示。
 
 写完一段后问：即使读者不知道作者是谁，是否仍能通过事件、动作和关系读懂触动从何而来？若不能，补足现场或删掉只对作者成立的解释。
+
+### 3.6 需要公共立意时组织雄辩性
+
+当题材要求文化判断、历史抒情、城市对照、价值表达或面向公众的号召时，先找一个可发生的标题母题或具体物件，再让它经历至少一次变义。可使用对举、排比、设问、互文、拟人和递进，但每种修辞都必须推动思想轴；人物和名句按“处境—选择—代价—公共意义”组织，不按姓名堆列。热烈可以保留，判断必须有材料、动作和现实条件托住。
 
 ### 4. 先把文字流挤出来
 
@@ -153,6 +158,10 @@ description: 学习并应用“Embraced by Love”个人中文文风，创作、
 ### 文化阅读与思想评论
 
 面对小说、作家或思想文本，先从一次具体的阅读相遇进入，再沿着“作品细部—社会伦理与时代秩序—今日的历史责任”推进。审美成就与思想危险可以同时成立，不替任何一方互相抵消；文本事实、解释推断和当代立场必须分层，不能用漂亮的升华替代证据。
+
+### 立意型文化散文与公共议论
+
+当文章以标题母题、文化意象、历史人物、城市对照或价值命题为中心时，读取 [references/rhetorical-literary-prose.md](references/rhetorical-literary-prose.md)。让物件或命题先在场景中发生，再经少量有功能的案例和文本回声向公共判断扩大；保留雄健、典雅和号召力，但避免名人目录、空泛格言、无条件励志与单向度英雄化。
 
 ### 文明纪录片与公共历史解说
 
